@@ -2,7 +2,7 @@
 FROM choirless/librosa_ml:release-2.4
 
 RUN apt-get update && \
-    apt-get install -y libsm6 libxext6 libxrender-dev \
+    apt-get install -y libsm6 libxext6 libxrender-dev git \
     && rm -rf /var/lib/apt/lists/*
 
 RUN pip3 install importlib_resources \
