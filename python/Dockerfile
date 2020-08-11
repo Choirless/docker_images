@@ -8,7 +8,7 @@ RUN apt-get update && \
 RUN pip3 install importlib_resources \
     "choirless_smiler>=1.2.1" \
     aiohttp \
-    "git+https://github.com/Choirless/renderer@f0ec6e91fa5d3cb7fd4d466353582a4756e5c1a0#egg=choirless_lib&subdirectory=python/choirless_lib"
+    "git+https://github.com/Choirless/renderer@8013eacede395f88b681cb9f7d108621c034a644#egg=choirless_lib&subdirectory=python/choirless_lib"
 
 
     
